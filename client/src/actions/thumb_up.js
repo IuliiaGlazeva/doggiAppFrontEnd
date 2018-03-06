@@ -6,7 +6,7 @@ export const plusOne = (userId) => {
     const { users } = getState()
     const user = users.fetch(url)
       .then(function(response) {
-        
+
       }
 
       .catch((error) => {
