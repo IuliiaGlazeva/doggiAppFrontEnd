@@ -4,7 +4,6 @@ import './style.css';
 export default class Grid_Top10 extends React.Component {
 
   render() {
-    const { users, updateUser } = this.props
     return (
     <main id="page-wrap">
       <div class="wrapper">
@@ -62,125 +61,55 @@ export default class Grid_Top10 extends React.Component {
                        </li>
                        <li>
                          <div class="secondContainer">
-                         {users
-                           .sort((p1, p2) => (p2.score - p1.score))
-                           .map((user, index) => (
-                           <User
-                             key={index}
-                             onChange={updateUser}
-                             { ...user }
-                           />
-                         ))}
+                            <p>Name</p>
                          </div>
                        </li>
                        <li>
                          <div class="thirdContainer">
-                         {users
-                           .sort((p1, p2) => (p2.score - p1.score))
-                           .map((user, index) => (
-                           <User
-                             key={index}
-                             onChange={updateUser}
-                             { ...user }
-                           />
-                         ))}
+                            <p>Name</p>
                          </div>
                        </li>
                        <li>
                          <div class="fourthContainer">
-                         {users
-                           .sort((p1, p2) => (p2.score - p1.score))
-                           .map((user, index) => (
-                           <User
-                             key={index}
-                             onChange={updateUser}
-                             { ...user }
-                           />
-                         ))}
+                            <p>Name</p>
                          </div>
                        </li>
                        <li>
                          <div class="fifthContainer">
-                         {users
-                           .sort((p1, p2) => (p2.score - p1.score))
-                           .map((user, index) => (
-                           <User
-                             key={index}
-                             onChange={updateUser}
-                             { ...user }
-                           />
-                         ))}
+                            <p>Name</p>
                          </div>
                        </li>
                        <li>
                          <div class="sixthContainer">
-                         {users
-                           .sort((p1, p2) => (p2.score - p1.score))
-                           .map((user, index) => (
-                           <User
-                             key={index}
-                             onChange={updateUser}
-                             { ...user }
-                           />
-                         ))}
+                            <p>Name</p>
                          </div>
                        </li>
                        <li>
                          <div class="seventhContainer">
-                         {users
-                           .sort((p1, p2) => (p2.score - p1.score))
-                           .map((user, index) => (
-                           <User
-                             key={index}
-                             onChange={updateUser}
-                             { ...user }
-                           />
-                         ))}
+                            <p>Name</p>
                          </div>
                        </li>
                        <li>
                          <div class="eighthContainer">
-                         {users
-                           .sort((p1, p2) => (p2.score - p1.score))
-                           .map((user, index) => (
-                           <User
-                             key={index}
-                             onChange={updateUser}
-                             { ...user }
-                           />
-                         ))}
+                            <p>Name</p>
                          </div>
                        </li>
                        <li>
                          <div class="ninthContainer">
-                         {users
-                           .sort((p1, p2) => (p2.score - p1.score))
-                           .map((user, index) => (
-                           <User
-                             key={index}
-                             onChange={updateUser}
-                             { ...user }
-                           />
-                         ))}
+                            <p>Name</p>
                          </div>
                        </li>
                        <li>
                          <div class="tenthContainer">
-                         {users
-                           .sort((p1, p2) => (p2.score - p1.score))
-                           .map((user, index) => (
-                           <User
-                             key={index}
-                             onChange={updateUser}
-                             { ...user }
-                           />
-                         ))}
+                            <p>Name</p>
                          </div>
                        </li>
                      </ul>
                 </div>
               </div>
+            </article>
           </div>
+        </div>
       </div>
     </main>
     )

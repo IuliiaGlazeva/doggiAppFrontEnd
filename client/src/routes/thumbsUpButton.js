@@ -1,9 +1,9 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 
 
 
-export default class PlusOneButton extends PureComponent {
+export default class PlusOneButton extends React.Component {
   static propTypes = {
     onClick: PropTypes.func.isRequired
   }
@@ -14,4 +14,4 @@ export default class PlusOneButton extends PureComponent {
   }
 }
 
-export default PlusOneButton
+export default PlusOneButtonA
