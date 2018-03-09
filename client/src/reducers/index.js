@@ -1,11 +1,11 @@
-import matchResult from './matchResult'
-import player from './player'
-import top10 from './top10'
+import user from './Users'
 import dogs from './dogs'
+import {login} from '../actions/login'
+import LoginForm from '../components/LoginForm'
 
 export default {
-  matchResult,
-  player,
-  top10,
-  dogs
+  user,
+  dogs,
+  login,
+  LoginForm
 }

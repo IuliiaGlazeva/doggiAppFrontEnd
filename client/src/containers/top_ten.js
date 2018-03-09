@@ -4,6 +4,7 @@ import './style.css';
 export default class Grid_Top10 extends React.Component {
 
   render() {
+
     return (
     <main id="page-wrap">
       <div class="wrapper">
